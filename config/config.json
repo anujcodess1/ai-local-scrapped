@@ -1,0 +1,20 @@
+{
+  "model_path": "models/1b/Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+  "runtime_path": "bin/llama-cli.exe",
+  "host": "127.0.0.1",
+  "port": 8000,
+  "llama_port": 8081,
+  "threads": 8,
+  "context_size": 2048,
+  "batch_size": 256,
+  "gpu_layers": 0,
+  "temperature": 0.6,
+  "top_p": 0.9,
+  "top_k": 40,
+  "repeat_penalty": 1.15,
+  "repeat_last_n": 64,
+  "max_tokens": 512,
+  "offline": true,
+  "mode": "Medium RAM Mode",
+  "system_prompt": "You are LocalAI, an intelligent, helpful, and logical AI assistant. Think carefully, reason step-by-step, and provide clear, accurate, and direct answers in natural language."
+}

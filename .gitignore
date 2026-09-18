@@ -1,0 +1,32 @@
+# Binary Runtimes & Compiled Artifacts
+bin/
+runtime/
+llama.cpp/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+
+# Model Weights
+models/
+*.gguf
+*.bin
+
+# Temporary & Download Caches
+cache/
+*.zip
+*.part
+*.tar.gz
+
+# Environment & Logs
+python/
+logs/
+
+# Editor & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
